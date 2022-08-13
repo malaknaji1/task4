@@ -1,0 +1,396 @@
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+/*font-family: 'Droid Arabic Naskh', serif;*/
+body{
+  margin: 0;
+  padding-right: 5%;
+  padding-left: 5%;
+  font-family: 'Droid Arabic Naskh', serif;
+  
+}
+
+.list{
+  width: 85%;
+}
+li {
+  
+  display: inline-block;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+
+.nav a {
+ 
+  padding: 5px;
+  text-decoration: none;
+ 
+}
+.nav li :hover{
+  text-decoration: underline;
+}
+
+.nav{
+  display: flex;
+  /* justify-content: space-between; */
+  position: sticky;
+  top: 0;
+  background-color: white;
+  box-shadow: 0 4px 4px -2px rgb(163, 161, 161) ;
+}
+ul{
+  display: inline;
+  padding-right: 2%;
+}
+
+.jazeera{
+  
+  width: 80px;
+  height: 80px;
+}
+
+ul li a {
+  color: black;
+  
+}
+
+ul li   :hover{
+  color: black;
+}
+
+.list,.list-2{
+  display: flex;
+  align-items: center;
+}
+
+.list-2 ul{
+  position: absolute;
+  left: -10px;
+}
+.list-2{
+  width: 15%;
+  padding-left: 0;
+  padding-left: 0;
+
+}
+
+
+span{
+  font-size: 26px !important;
+}
+
+.footer-icons{
+  font-size: 30px !important;
+}
+
+
+
+
+
+
+.info{
+ text-align: right;
+ /* padding-right: 4%; */
+ /* padding-top: 30px ; */
+ 
+ 
+}
+
+
+
+.info h2{
+  width: 85%;
+  font-weight: bold;
+  padding-top: 15px ;
+  border-right:solid 20px rgb(89, 167, 240) ;
+  margin-bottom: 15px;
+}
+
+.info h2,.info h5{
+  padding-right: 30px;
+
+}
+.info h5{
+  color: #595959;
+  width: 90%;
+  padding-right: 50px;
+  margin-top: 15px;
+ 
+}
+
+.section-1{
+  
+padding-top: 30px;
+padding-bottom: 50px;
+}
+.img-col {
+text-align: right;
+}
+.fa-angle-down{
+  padding-right: 7px;
+}
+
+.fa-play-circle {
+  padding-left: 7px;
+  
+}
+
+
+.search :hover{
+  color: blue;
+}
+
+
+
+
+.info{
+  float: right;
+  width: 35%;
+}
+
+.img-col{
+  float: right;
+  width: 65%;
+}
+
+.bars{
+  display: none;
+}
+
+.social{
+  
+  padding: 10px;
+  
+}
+.info .fa-facebook-official{
+  padding-right: 50px;
+
+  
+}
+.fa-facebook-official{
+  
+  color: blue;
+  
+}
+.fa-twitter{
+  color: rgb(89, 167, 240);
+}
+
+
+.img-col img{
+  max-width: 100%;
+}
+
+.news{
+  clear: both;
+  display: flex;
+  text-align: right;
+  padding-top: 20px;
+}
+
+.news-item{
+  padding: 5px;
+  color: black;
+
+}
+
+.item-2,.item-3{
+  padding-right: 6%;
+}
+
+.footer{
+  display: flex;
+  text-align: right;
+  border-top: solid 2px #afafaf;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  
+}
+
+.footer-items{
+  
+  /* padding-right: 3%; */
+  padding-left: 4%;
+  width: 25%;
+  
+}
+
+.footer-items h5{
+  font-weight: lighter;
+}
+
+
+.footer-last-item{
+  text-align: center;
+}
+
+
+.footer-icons{
+  display: flex;
+  justify-content: space-around;
+}
+
+.fa-youtube-play{
+  color: red;
+  
+}
+
+.fa-instagram{
+  font-size: 40px;      
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color:transparent;
+}
+
+.fa-wifi{
+  transform: rotate(45deg);
+  color: #fc982d;
+}
+.info .fa-whatsapp{
+  display: none;
+}
+
+.underline:hover{
+  text-decoration: underline;
+}
+
+.pointer :hover{
+  cursor: pointer;
+}
+
+.footer h5:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.info h2{
+  font-size: 27px;
+}
+ .info h5{
+  font-size: 17px;
+}
+
+.footer h4{
+  font-size: 20px;
+  color: rgb(22, 22, 22);
+}
+
+.footer h5{
+  font-size: 15px;
+  color: rgb(53, 52, 52);
+}
+
+
+/* Tablet */
+@media screen and  (max-width:990px){
+  .hiddin{
+    display: none;
+  }
+
+ 
+  .bars{
+    display: inline-block;
+  }
+  .img-col,.img-col img{
+    width: 100%;
+   
+  }
+  body{
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .jazeera{
+    width: 50px;
+    height: 50px;
+  }
+  .info{
+    clear: both;
+    width: 95%;
+    padding-right: 4%;
+  }
+  .info h2{
+    padding-top: 5px;
+    padding-right: 10px;
+    border-right: solid 10px rgb(89, 167, 240);
+  }
+  .info h5{
+    padding-right: 0px;
+  }
+
+  .info .fa-facebook-official{
+    padding-right: 0px;
+  }
+  
+
+   .section-1{
+    padding-top: 4px;
+   }
+   .news-item{
+    padding-right: 0px;
+   }
+   .news{
+    display: block;
+    padding: 4%;
+   }
+   
+   .footer{
+    display: block;
+    padding-top: 30px;
+   }
+   .footer-title{
+    display: flex;
+    width: max-content;
+    align-items: center;
+   }
+   .footer-items{
+    padding-top: 25px;
+   }
+   .footer-title h4{
+    font-size: 25px;
+    padding-right: 10px;
+    padding-left: 5px;
+   }
+   
+   .footer-last-item p{
+      padding: 50px 0px;
+      font-weight: bolder;
+   }
+}
+
+
+@media screen and  (max-width:500px){
+
+  .info .fa-whatsapp{
+    display: inline-block;
+    padding-right: 5px;
+    color: rgb(77, 228, 77);
+    
+  }
+
+  .footer-title h4{
+    font-size: 20px;
+    
+   }
+
+   .news h4{
+    font-size: 15px;
+   }
+
+   .info h2{
+    font-size: 25px;
+   }
+
+   .footer img{
+    width: 50px;
+   }
+
+   .footer p {
+    padding: 30px 0px;
+   }
+  
+}
